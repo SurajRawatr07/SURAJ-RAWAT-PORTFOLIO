@@ -1,0 +1,591 @@
+@import "tailwindcss";
+
+
+@theme inline {
+
+
+  /* =====================
+     COLORS
+  ====================== */
+
+
+  --color-midnight: #030712;
+
+  --color-primary: #ec4899;
+
+  --color-secondary: #22d3ee;
+
+  --color-accent: #8b5cf6;
+
+
+  --color-text: #f8fafc;
+
+
+  --color-muted: #94a3b8;
+
+
+  --color-glass:
+  rgba(255,255,255,0.06);
+
+
+  --color-glass-border:
+  rgba(255,255,255,0.12);
+
+
+
+  --background:
+  var(--color-midnight);
+
+
+  --foreground:
+  var(--color-text);
+
+
+
+  --font-sans:
+  var(--font-geist-sans),
+  sans-serif;
+
+
+  --font-mono:
+  var(--font-geist-mono),
+  monospace;
+
+
+}
+
+
+
+
+
+
+:root{
+
+
+  --background:#030712;
+
+
+  --foreground:#f8fafc;
+
+
+}
+
+
+
+
+
+
+*{
+
+  box-sizing:border-box;
+
+}
+
+
+
+html{
+
+  scroll-behavior:smooth;
+
+}
+
+
+
+body{
+
+
+  background:
+  radial-gradient(
+    circle at top,
+    rgba(236,72,153,.12),
+    transparent 35%
+  ),
+  #030712;
+
+
+  color:var(--foreground);
+
+
+  overflow-x:hidden;
+
+
+  font-family:
+  var(--font-geist-sans),
+  sans-serif;
+
+
+}
+
+
+
+
+
+
+/* =========================
+   TEXT SELECTION
+========================= */
+
+
+::selection{
+
+background:#ec4899;
+
+color:white;
+
+}
+
+
+
+
+
+
+/* =========================
+   PREMIUM GLASS
+========================= */
+
+
+.glass{
+
+
+background:
+linear-gradient(
+135deg,
+rgba(255,255,255,.08),
+rgba(255,255,255,.02)
+);
+
+
+
+backdrop-filter:
+blur(20px);
+
+
+
+-webkit-backdrop-filter:
+blur(20px);
+
+
+
+border:
+1px solid
+rgba(255,255,255,.12);
+
+
+
+box-shadow:
+
+0 25px 60px
+rgba(0,0,0,.35);
+
+
+
+}
+
+
+
+
+
+
+.glass-hover{
+
+
+transition:
+all .35s ease;
+
+
+}
+
+
+
+.glass-hover:hover{
+
+
+transform:
+translateY(-6px);
+
+
+
+border-color:
+rgba(236,72,153,.4);
+
+
+
+box-shadow:
+
+0 20px 50px
+rgba(236,72,153,.15);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   GRADIENT TEXT
+========================= */
+
+
+.text-gradient{
+
+
+background:
+
+linear-gradient(
+90deg,
+#ec4899,
+#8b5cf6,
+#22d3ee
+);
+
+
+
+-webkit-background-clip:text;
+
+background-clip:text;
+
+
+-webkit-text-fill-color:transparent;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   GLOW EFFECTS
+========================= */
+
+
+.glow-primary{
+
+
+box-shadow:
+
+0 0 25px
+rgba(236,72,153,.55);
+
+
+
+}
+
+
+
+.glow-secondary{
+
+
+box-shadow:
+
+0 0 25px
+rgba(34,211,238,.45);
+
+
+
+}
+
+
+
+.glow-ai{
+
+
+box-shadow:
+
+0 0 60px
+rgba(139,92,246,.35);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   AI BACKGROUND GRID
+========================= */
+
+
+.ai-grid{
+
+
+background-image:
+
+linear-gradient(
+rgba(255,255,255,.05)
+1px,
+transparent 1px
+),
+
+
+linear-gradient(
+90deg,
+rgba(255,255,255,.05)
+1px,
+transparent 1px
+);
+
+
+
+background-size:
+
+40px 40px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   FLOATING ANIMATION
+========================= */
+
+
+.float{
+
+
+animation:
+
+float 6s ease-in-out infinite;
+
+
+}
+
+
+
+@keyframes float{
+
+
+0%,100%{
+
+transform:
+translateY(0);
+
+}
+
+
+50%{
+
+transform:
+translateY(-20px);
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+
+::-webkit-scrollbar{
+
+
+width:10px;
+
+
+}
+
+
+
+::-webkit-scrollbar-track{
+
+
+background:#030712;
+
+
+}
+
+
+
+::-webkit-scrollbar-thumb{
+
+
+background:
+
+linear-gradient(
+180deg,
+#ec4899,
+#22d3ee
+);
+
+
+
+border-radius:20px;
+
+
+}
+
+
+
+::-webkit-scrollbar-thumb:hover{
+
+
+background:#ec4899;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   LENIS SMOOTH SCROLL
+========================= */
+
+
+html.lenis,
+html.lenis body{
+
+
+height:auto;
+
+
+}
+
+
+
+.lenis.lenis-smooth{
+
+
+scroll-behavior:auto!important;
+
+
+}
+
+
+
+.lenis.lenis-smooth [data-lenis-prevent]{
+
+
+overscroll-behavior:contain;
+
+
+}
+
+
+
+.lenis.lenis-stopped{
+
+
+overflow:hidden;
+
+
+}
+
+
+
+.lenis.lenis-smooth iframe{
+
+
+pointer-events:none;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   MOBILE OPTIMIZATION
+========================= */
+
+
+@media(max-width:640px){
+
+
+body{
+
+
+font-size:15px;
+
+
+}
+
+
+
+.glass{
+
+
+backdrop-filter:
+blur(14px);
+
+
+
+}
+
+
+}
+
+
+
+
+
+
+/* =========================
+   HIDE SCROLLBAR
+========================= */
+
+
+.scrollbar-hide::-webkit-scrollbar{
+
+
+display:none;
+
+
+}
+
+
+
+.scrollbar-hide{
+
+
+-ms-overflow-style:none;
+
+
+scrollbar-width:none;
+
+
+}
