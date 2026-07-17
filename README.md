@@ -1,109 +1,111 @@
 <div align="center">
 
-# 👋 Hi, I'm Suraj Rawat
+# 🚀 Suraj Rawat
 
-### Full Stack Developer | .NET Developer | React & Next.js Enthusiast
+### Full Stack Developer • .NET Developer • Cloud Enthusiast
 
 <p>
-Building scalable web applications with modern technologies, clean architecture, and cloud-native solutions.
+Building fast, scalable and user-focused web applications with modern technologies.
 </p>
 
 <p>
-<a href="https://suraj-rawat-portfolio.vercel.app/" target="_blank">
+<a href="https://suraj-rawat-portfolio.vercel.app">
 <img src="https://img.shields.io/badge/🌐_Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
-<a href="YOUR_GITHUB_URL" target="_blank">
+<a href="https://github.com/yourusername">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
 </a>
 
-<a href="YOUR_LINKEDIN_URL" target="_blank">
+<a href="https://linkedin.com/in/yourprofile">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
 </a>
 
 </p>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:06B6D4&height=180&section=header&text=Welcome%20to%20My%20Portfolio&fontSize=35&fontColor=ffffff"/>
+
 </div>
 
 ---
 
-# 🚀 Live Demo
+# 📌 Overview
 
-👉 **https://suraj-rawat-portfolio.vercel.app/**
+Welcome to my personal portfolio repository.
 
----
+This portfolio represents my journey as a **Full Stack Developer**, showcasing production-ready projects, technical expertise, and professional experience. The website is designed with a strong focus on performance, accessibility, responsive design, and modern user experience.
 
-# 📖 About
+### 🌐 Live Website
 
-This is my personal portfolio website built to showcase my experience, technical skills, projects, and achievements as a Full Stack Developer.
-
-The portfolio focuses on:
-
-- Modern UI/UX
-- Responsive Design
-- Smooth Animations
-- Fast Performance
-- SEO Optimization
-- Clean Architecture
+> **https://suraj-rawat-portfolio.vercel.app/**
 
 ---
 
-# ✨ Features
+# ✨ Highlights
 
-- 👨‍💻 Developer Introduction
-- 💼 Professional Experience
-- 🚀 Featured Projects
-- 🛠 Skills Section
+- ⚡ Lightning-fast performance
+- 📱 Fully Responsive Design
+- 🌙 Beautiful Dark Theme
+- 🎨 Smooth UI Animations
+- 🚀 SEO Optimized
 - 📄 Resume Download
-- 📱 Fully Responsive
-- 🌙 Dark Theme
-- ⚡ Optimized Performance
-- 📬 Contact Section
+- 💼 Project Showcase
+- 📬 Contact Form
+- ♿ Accessibility Friendly
+- 🔥 Modern Clean UI
 
 ---
 
 # 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
-- React.js
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Framer Motion
+| Technology | Usage |
+|------------|-------|
+| Next.js | Framework |
+| React.js | UI Development |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Framer Motion | Animations |
 
-### Backend
+---
 
-- .NET Core
-- ASP.NET Web API
+## Backend
+
+- ASP.NET Core
+- .NET Web API
 - Node.js
 
-### Database
+---
+
+## Database
 
 - SQL Server
 - MongoDB
 - Redis
 
-### DevOps & Cloud
+---
+
+## Cloud & DevOps
 
 - Docker
 - Kubernetes
-- Azure
+- Microsoft Azure
 - GitHub Actions
 - CI/CD
 
 ---
 
-# 📂 Project Structure
+# 📂 Folder Structure
 
-```
+```text
 .
 ├── app/
 ├── components/
+├── hooks/
+├── lib/
 ├── public/
 ├── styles/
-├── lib/
-├── hooks/
 ├── utils/
 ├── assets/
 └── README.md
@@ -111,102 +113,156 @@ The portfolio focuses on:
 
 ---
 
-# ⚙️ Installation
+# 🚀 Getting Started
 
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/portfolio.git
-```
-
-Go to project directory
+## Clone Repository
 
 ```bash
-cd portfolio
+git clone https://github.com/yourusername/portfolio.git
 ```
 
-Install dependencies
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run locally
+## Run Development Server
 
 ```bash
 npm run dev
 ```
 
-Production build
+Open:
 
-```bash
-npm run build
+```
+http://localhost:3000
 ```
 
 ---
 
-# 📷 Preview
+# 📸 Preview
 
+> Add a screenshot inside the **public** folder.
+
+```md
 ![Portfolio Preview](public/preview.png)
-
-> Replace this image with your actual portfolio screenshot.
+```
 
 ---
 
-# 📈 Lighthouse Score
+# ⚙ Performance
 
-✅ Performance
+| Category | Status |
+|----------|--------|
+| ⚡ Performance | Excellent |
+| ♿ Accessibility | Excellent |
+| 🔒 Best Practices | Excellent |
+| 🔍 SEO | Excellent |
 
-✅ Accessibility
+---
 
-✅ Best Practices
+# 🎯 Features
 
-✅ SEO
+✔ Modern UI/UX
+
+✔ Mobile First Design
+
+✔ Reusable Components
+
+✔ Optimized Images
+
+✔ Smooth Page Transitions
+
+✔ Fast Loading
+
+✔ Clean Code Architecture
+
+✔ Easy Maintenance
+
+✔ Professional Design
+
+---
+
+# 💻 Featured Sections
+
+- Hero Section
+- About Me
+- Skills
+- Experience
+- Projects
+- Education
+- Certifications
+- Contact
+
+---
+
+# 📈 Future Improvements
+
+- Blog Integration
+- Admin Dashboard
+- CMS Support
+- Multi-language Support
+- Analytics Dashboard
+- AI Chat Assistant
 
 ---
 
 # 🌍 Deployment
 
-This portfolio is deployed on **Vercel**.
+This project is deployed on **Vercel**.
 
-Live Website:
+### Production
 
-**https://suraj-rawat-portfolio.vercel.app/**
-
----
-
-# 📬 Contact
-
-📧 Email: your-email@gmail.com
-
-💼 LinkedIn: https://linkedin.com/in/your-profile
-
-🐙 GitHub: https://github.com/your-username
-
-🌐 Portfolio: https://suraj-rawat-portfolio.vercel.app/
+🌐 https://suraj-rawat-portfolio.vercel.app/
 
 ---
 
 # 🤝 Contributing
 
-Contributions, suggestions and feedback are always welcome.
+Contributions are welcome.
 
-Feel free to fork the repository and submit a Pull Request.
+1. Fork the repository
+2. Create your feature branch
+
+```bash
+git checkout -b feature/NewFeature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add New Feature"
+```
+
+4. Push
+
+```bash
+git push origin feature/NewFeature
+```
+
+5. Open a Pull Request
 
 ---
 
-# ⭐ Support
+# 📬 Contact
 
-If you like this project, please consider giving it a ⭐ on GitHub.
+**Suraj Rawat**
 
-It motivates me to build more awesome projects.
+📧 your-email@example.com
+
+🌐 https://suraj-rawat-portfolio.vercel.app/
+
+💼 https://linkedin.com/in/yourprofile
+
+🐙 https://github.com/yourusername
 
 ---
 
 <div align="center">
 
-### Thanks for visiting ❤️
+### ⭐ If you like this project, don't forget to leave a star!
 
-**Happy Coding 🚀**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:4F46E5&height=120&section=footer"/>
 
 </div>
