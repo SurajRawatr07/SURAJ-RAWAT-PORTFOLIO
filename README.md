@@ -141,15 +141,6 @@ http://localhost:3000
 
 ---
 
-# 📸 Preview
-
-> Add a screenshot inside the **public** folder.
-
-```md
-![Portfolio Preview](public/preview.png)
-```
-
----
 
 # ⚙ Performance
 
@@ -245,19 +236,7 @@ git push origin feature/NewFeature
 
 ---
 
-# 📬 Contact
 
-**Suraj Rawat**
-
-📧 your-email@example.com
-
-🌐 https://suraj-rawat-portfolio.vercel.app/
-
-💼 https://linkedin.com/in/yourprofile
-
-🐙 https://github.com/yourusername
-
----
 
 <div align="center">
 
